@@ -7,14 +7,14 @@ function sendMessage() {
   }
 }
 const allButtons = document.querySelectorAll('.btn, button');
-    
-    allButtons.forEach(btn => {
-        btn.addEventListener('mouseover', () => {
-            btn.style.boxShadow = "0 0 20px rgba(56, 189, 248, 0.6)";
-        });
-        
-        btn.addEventListener('mouseout', () => {
-            btn.style.boxShadow = "none";
-        });
-    });
+
+allButtons.forEach(btn => {
+  btn.addEventListener('mouseover', () => {
+    btn.style.boxShadow = "0 0 20px rgba(56, 189, 248, 0.6)";
+  });
+
+  btn.addEventListener('mouseout', () => {
+    btn.style.boxShadow = "none";
+  });
+});
 
